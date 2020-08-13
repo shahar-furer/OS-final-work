@@ -8,10 +8,10 @@ int primes[] = { 2, 3, 5, 7 };  /* 2. data */
 static int
 square(int x)                   /* 3. text*/
 {
-   int result;                 /* 4. stack result saved in stack and pass to the caller func and saved in the caller stack*/
+  int result;                 /* 4. stack */
 
     result = x * x;
-    return result;              /* 5. stack */
+    return result;              /* 5. stack  result saved in stack and pass to the caller func and saved in the caller stack */
 }
 
 static void
@@ -27,7 +27,7 @@ doCalc(int val)                 /* 6. text */
     }
 }
 
-int///
+int
 main(int argc, char* argv[])    /* 8.text */
 {
     static int key = 9973;      /* 9. data */
